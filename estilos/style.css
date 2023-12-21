@@ -1,0 +1,182 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a{
+    color: #ee0a0a;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    color: rgb(231, 83, 83);
+ }
+
+h2{
+    color: #D2232A;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    color:red;
+    margin:0px;
+   
+}
+
+header{
+    overflow: hidden;
+    background-image: linear-gradient(#D2232A, #000000);
+    height: 30px;
+    padding: 45px 10px;
+    margin: 0px;
+    position: fixed;
+    position: sticky;   
+    top: 0; 
+
+}
+
+
+header #logo{
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header h1{
+    font-size: 25px;
+    padding:0px ;
+    margin: -7px;
+}
+
+header span{
+    margin: 20px;
+}
+
+header #uno{
+    padding-left: 200px;
+}
+
+main {
+    background-color: rgb(252, 252, 252);
+    margin: 0px;
+    padding: 0px 10px;
+
+}
+
+main #manto{
+    cursor:pointer;
+    padding: 0px 20px 0px 20px;
+}
+
+.mantos{
+    cursor:pointer;
+}
+
+
+footer{
+    background-color: #000000;
+    padding: 50px 10px;
+}
+
+.logo{
+    height: 20px;
+}
+
+
+main #wallpaper{
+    padding-bottom: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+main #flamengo{
+    width: 100%;
+}
+
+
+.peca1{
+    text-align: center;
+    border: 1px;
+    padding: 0px;
+    margin: 25px ;
+}
+
+
+.peca1 img{
+    cursor:pointer;
+    margin: 0px;
+    height: 300px;
+}
+
+.peca1 div{
+    display: inline-block;
+}
+
+
+.peca2{
+    text-align: center;
+    border: 1px;
+    padding: 0px;
+    margin: 25px ;
+}
+
+.peca2 div{
+    display: inline-block;
+}
+
+.peca2 img{
+    cursor:pointer;
+    height: 270px;
+    padding: 0px 10px 0px 10px;
+}
+
+.mantos{
+    text-align: center;
+    border: 1px;
+    padding: 0px;
+    margin: 0px ;
+}
+
+.comprar{
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    color: black;
+    background-color: #D2232A;
+    padding: 16px;
+    margin: 0px;
+    cursor:pointer;
+}
+
+.comprar span{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 1px;
+    padding: 1px;
+}
+
+footer{
+    text-align: center;
+    font-weight: bolder;
+     background: repeating-linear-gradient(
+    180deg,
+    #000,
+    #000 10px,
+    #D2232A 10px,
+    #D2232A 20px
+    );
+
+
+}
+.comprar:hover {
+    background-color: black;
+    
+ }
+
+#clube{
+    color: white;
+}
